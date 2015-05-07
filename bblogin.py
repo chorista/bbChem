@@ -19,6 +19,7 @@ opener=urllib2.build_opener(urllib2.HTTPCookieProcessor(cj))
 opener.addheaders = [('User-agent', 'Testing')]
 urllib2. install_opener(opener)
 
+#I should find the way how click javascript button
 url="http://bb.unist.ac.kr/webapps/login/?action=login"
 
 payload={'user_id':username, 'encoded_pw':encoded_pw}
